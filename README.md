@@ -1,4 +1,6 @@
 # docker-tutorial - commands
+#Port forwarding
+-p 8080:80 ==> IP = 0.0.0.0
 
 
 #docker commit layer:
