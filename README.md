@@ -2,6 +2,8 @@
 #Port forwarding
 -p 8080:80 ==> IP = 0.0.0.0
 
+#Save/Load
+$docker save -o ap.tar alpine:latest
 
 #docker commit layer:
 $docker run -tid --name py python
